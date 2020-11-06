@@ -83,6 +83,7 @@ public class ProcessarBoletos {
                 boleto.setValor(Double.parseDouble(vetor[7]));
                 boleto.setMulta(Double.parseDouble(vetor[8]));
                 boleto.setJuros(Double.parseDouble(vetor[9]));
+                boletos.add(boleto);
             }
 
             return boletos;
